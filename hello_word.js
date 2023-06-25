@@ -98,6 +98,34 @@ for (const value of myList) {
 
 let myCounter = 0
 
-while (myCounter <= myList ){
-    
+while (myCounter < myList.length) {
+    console.log(myList[myCounter])
+    myCounter++
 }
+
+// Clases
+
+class MyClass {
+    constructor(name, age) {
+        this.name = name
+        this.age = age
+    }
+}
+
+let myClass = new MyClass("Carlos", 20)
+console.log(myClass)
+console.log(myClass.name)
+
+// Enum
+
+const MyEnum = {
+    DART: "dart",
+    PYTHON: "python",
+    SWIFT: "swift", 
+    JAVA: "java", 
+    KOTLIN: "kotlin", 
+    JAVASCRIPT: "javascript"
+}
+
+const myEnum = MyEnum.JAVASCRIPT
+console.log
